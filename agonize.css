@@ -1,20 +1,110 @@
+div {
+    /* border: 1px solid black; */
+}
+
+/* ...............header............ */
+
+.navbar {
+    display: inline-block;
+
+    
+}
+
+.navbar .nav-item {
+    margin: 10px;
+    transition: 1s;
+}
+
+.navbar .nav-item:hover {
+    transform: scale(1.05);
+    
+}
+
+.navbar .nav-item:hover a {
+    color: #ccae62;
+}
+
+.nav-btn {
+    text-align: center;
+    
+}
+
+.nav-btn button{
+    color: #ccae62;
+    border: none;
+    background: none;
+
+
+   
+
+}
+
+
+.nav-btn button .fa-bars {
+    font-size: 25px;
+}
+
+.nav-brand a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px ;
+    font-weight: bold;
+    color: #ccae62;
+    
+
+}
+
+
+form input {
+    box-shadow: none !important;
+    border: #ccae62 5px solid;
+    border-radius:0px 0px 0px ;
+
+
+}
+
+
+header button {
+background: #ccae62;
+margin-left: -12px;
+border: none;
+padding-right: 10px;
+border-radius: 0px 5px 5px 0px;
+color: white;
+
+
+}
+
+
+
+.cart a span i{
+    font-size: 25px;
+    color: #ccae62;
+}
+
+
 .hide {
     display: none;
 }
 
 
+.nav {
 
-.content{
-    width: 500px;
-
-
-}
-
-.child {
-   width: 0px;
+    z-index: 2;
 }
 
 
-.content:hover .child {
-    transform: translateX(100%);
+
+.image {
+    background-image:url(./img/img2.jpg);
+    height: 300px;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+
+
+
+.image:hover {
+    transform: scale(1.01);
 }

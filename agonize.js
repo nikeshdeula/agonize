@@ -38,47 +38,76 @@
 // }
 
 
-let  search = document.querySelector(".search");
-let tgl = true;
+// let  search = document.querySelector(".search");
+// let tgl = true;
 
-function  showHide() {
-    if (tgl) {
-        search.style.display = "none";
-        tgl = false;
-    }
+// function  showHide() {
+//     if (tgl) {
+//         search.style.display = "none";
+//         tgl = false;
+//     }
 
-    else {
-        search.style.display = "block";
-        tgl = true;
-    }
-}
+//     else {
+//         search.style.display = "block";
+//         tgl = true;
+//     }
+// }
 
 
 
-let pshow = document.querySelector(".p-show");
-let toggle = true;
+// let pshow = document.querySelector(".p-show");
+// let toggle = true;
 
-function aboutBtn() {
-    if (toggle) {
-        pshow.style.display = "none";
+// function aboutBtn() {
+//     if (toggle) {
+//         pshow.style.display = "none";
+//         toggle = false;
+//     }
+//     else {
+//         pshow.style.display = "block";
+//         toggle = true;
+//     }
+
+// }
+
+
+
+// let changeIcon = function(icon) {
+//     icon.classList.toggle('fa-eye-slash')
+    
+// }
+
+
+
+// let  headerSwitch = document.querySelector("header-switch");
+// toggle = true;
+
+
+
+
+
+//  function  showHide() {
+//     headerSwitch.classList.toggle("hide");
+//  }
+
+
+
+let nav = document.querySelector(".nav");
+toggle = true;
+
+function showHide() {
+    if (toggle) { nav.style.display = "none";
         toggle = false;
-    }
-    else {
-        pshow.style.display = "block";
+
+    } else {
+        nav.style.display = "block";
         toggle = true;
     }
-
 }
 
 
 
 let changeIcon = function(icon) {
-    icon.classList.toggle('fa-eye-slash')
+    icon.classList.toggle('fa-times')
     
 }
-
-
-
-
-
-
