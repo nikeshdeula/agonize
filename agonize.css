@@ -1,0 +1,20 @@
+.hide {
+    display: none;
+}
+
+
+
+.content{
+    width: 500px;
+
+
+}
+
+.child {
+   width: 0px;
+}
+
+
+.content:hover .child {
+    transform: translateX(100%);
+}
