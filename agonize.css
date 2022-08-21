@@ -6,8 +6,13 @@ div {
 
 .navbar {
     display: inline-block;
+    z-index: 1000;
 
     
+}
+
+.nav {
+    z-index: 5;
 }
 
 .navbar .nav-item {
@@ -16,7 +21,7 @@ div {
 }
 
 .navbar .nav-item:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     
 }
 
@@ -95,16 +100,21 @@ color: white;
 
 
 
-.image {
-    background-image:url(./img/img2.jpg);
-    height: 300px;
-    border-radius: 10px;
-    transition: 1s;
+.carousel-item {
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
-
-
-.image:hover {
-    transform: scale(1.01);
+.carousel-item  {
+    width: 100%;
 }
+
+.carousel-item .container {
+    z-index: 1;
+   margin-top: 250px;
+   padding-left: 40px;
+   color: white;
+}
+
