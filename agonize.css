@@ -118,3 +118,13 @@ color: white;
    color: white;
 }
 
+
+.products-item .card {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.products-item .card img {
+    width: auto;
+}
